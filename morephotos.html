@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sani Studio - More Photos</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fonts/icomoon/style.css">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Style -->
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/contact.css">
+
+
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="index.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Home</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
+   <!-- <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Shop</a>
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>-->
+  </div>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<div class="w3-clear"></div>
+<header id="header" class="w3-center w3-margin-bottom">
+  <br><br><h1><b><span>Sani Studio</span></b></h1><br><br>
+  <p><b>A template made by Mr. Aurgon for photographers.</b></p><br><br>
+  <!--<p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>-->
+  </div>
+</header>
+</div>
+
+<!--------------------
+==== Back To Top ====
+-------------------->
+
+<button class="btn-solid-lg-4" onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
+<!-- Portfolio Section -->
+ <div class="w3-padding-32 w3-content" id="portfolio">
+     <div class="section-title">
+    <h3 class="w3-text-grey">&nbsp; Photos</h3></div>
+    <hr class="w3-opacity">
+
+<!-- Photo Grid -->
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <div class="responsive">
+    <img src="/img/hero-side-bg.jpg" style="width:100%">
+    <img src="/img/model-1.jpg" style="width:100%">
+    <img src="/img/model-3.jpg" style="width:100%">
+    <img src="/img/model-6.jpg" style="width:100%">
+    <img src="/img/model-7.jpg" style="width:100%">
+    <!--<img src="/img/model-9.jpg" style="width:100%">-->
+  <!--</div>
+
+  <div class="w3-third">-->
+    <img src="/img/model-9.jpg" style="width:100%">
+    <img src="/img/model-10.jpg" style="width:100%">
+    <img src="/img/model-11.jpg" style="width:100%">
+    <img src="/img/model-12.jpg" style="width:100%">
+    <img src="/img/n-1.jpg" style="width:100%">
+    <!--<img src="/w3images/avatar_g.jpg" style="width:100%">-->
+  <!--</div>
+
+  <div class="w3-third">-->
+    <img src="/img/n-2.jpg" style="width:100%">
+    <img src="/img/p-1.jpg" style="width:100%">
+    <img src="/img/p-2.jpg" style="width:100%">
+    <img src="/img/p-3.jpg" style="width:100%">
+    <img src="/img/p-4.jpg" style="width:100%">
+   <!--<img src="/w3images/workshop.jpg" style="width:100%">-->
+  </div>
+</div>
+</div>
+
+  <!-- Start contact -->
+  <div class="section-title" id="contact"><br>
+    <h3 class="w3-padding-24">&nbsp; Contact</h3></div>
+    <div class="w3">
+    
+    <div class="w3-car">
+      <div class="row align-items-stretch justify-content-center no-gutters">
+        <div class="col-md-7">
+          <div class="form h-100 contact-wrap p-5">
+            <h3 class="text-center">Let's Talk</h3>
+            <form class="mb-5" method="post" id="contactForm" name="contactForm">
+              <div class="row">
+                <div class="col-md-6 form-group mb-3">
+                  <label for="" class="col-form-label">Name *</label>
+                  <input type="text" class="form-control" name="name" id="name" placeholder="Your name">
+                </div>
+                <div class="col-md-6 form-group mb-3">
+                  <label for="" class="col-form-label">Email *</label>
+                  <input type="email" class="form-control" name="email" id="email"  placeholder="Your email">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12 form-group mb-3">
+                  <label for="budget" class="col-form-label">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Your subject">
+                </div>
+              </div>
+
+              <div class="row mb-5">
+                <div class="col-md-12 form-group mb-3">
+                  <label for="message" class="col-form-label">Message *</label>
+                  <textarea class="form-control" name="message" id="message" cols="25" rows="4"  placeholder="Write your message"></textarea>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-md-5 form-group text-center">
+                  <input type="submit" value="Send Message" class="btn-contact">
+                  <span class="submitting"></span>
+                </div>
+              </div>
+            </form>
+
+            <div id="form-message-warning mt-4"></div> 
+            <div id="form-message-success">
+              Your message was sent, thank you!
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+    
+  
+  <!-- End Contact -->
+  
+<!-- End Page Content -->
+<!--</div>-->
+
+
+<!-- Footer -->
+<footer id="foot" class="w3-center w3-padding-64 w3-light-grey" style="margin-top:128px"> 
+  
+  <i href="#" class="fa fa-facebook-official fa-lg w3-hover-opacity"></i>
+  <i href="https://www.instagram.com/mr.aurgon/?r=nametag" class="fa fa-instagram fa-lg w3-hover-opacity"></i>
+  <i href="#" class="fa fa-snapchat fa-lg w3-hover-opacity"></i>
+  <i htef="#" class="fa fa-pinterest-p fa-lg w3-hover-opacity"></i>
+  <i htef="#" class="fa fa-twitter fa-lg w3-hover-opacity"></i>
+  <i hrrf="#" class="fa fa-linkedin fa-lg w3-hover-opacity"></i>
+  <i href="#" class="icon-whatsapp fa-lg w3-hover-opacity"></i>
+  <i href="https://github.com/aurgongaming" class="icon-github-square fa-lg w3-hover-opacity"></i>
+  <i href="#" class="fa fa-telegram fa-lg w3-hover-opacity"></i><br><br>
+  <div class="copyright">&copy; Copyright <strong><span>Sani Studio</span></strong>. All Rights Reserved
+        </div><br>
+ <!-- <p class="w3-medium">Made by <a href="https://web.aurgon.repl.co" target="_blank" class="footer-text"><b>Mr. Aurgon</b></a></p>--> Made by <a class="btn-footer" href="https://web.aurgon.repl.co"><b><span>Mr. Aurgon</span></b></a>
+</footer>
+ 
+ 
+ <!-- ========== Script ========== -->
+<script src="js/loader.js"></script>
+<script src="js/sidebar.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/main.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>

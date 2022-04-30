@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sani Studio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fonts/icomoon/style.css">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Style -->
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/contact.css">
+
+<style>
+body,h1 h2 h3 h4 h5 h6 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-image: url('/w3images/profile_girl.jpg');*/
+  min-height: 100%;
+}
+
+.w3-container {
+  margin-bottom: 1.125rem;
+  border-radius: 0.125rem;
+}
+.w3-center {
+  margin-bottom: 1.125rem;
+	border-radius: 0.125rem;
+}
+.w3-padding-small {
+  border-radius: 1.125rem;
+  border-radius: 0.125rem;
+}
+
+
+</style>
+
+ <!-- Custom Styles -->
+ <link rel="stylesheet" href="css/styles.css">
+  
+  
+</head>
+<body onload="myFunction()" style="margin:0;">
+  
+<!------ Loader ------>
+<div id="loader">
+  <div class="example">
+    <div class="sk-chase">
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+    </div>
+  </div>
+  </div>
+  
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px;" id="mySidebar">
+
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About Us</a>
+    <a href="#photos" onclick="w3_close()" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Photos</a>
+    <a href="#price" onclick="w3_close()" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Purchase</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
+  </div>
+</nav>
+
+
+<!-- !PAGE CONTENT! -->
+
+<div class="w3-content" style="max-width:1500px;"> 
+  
+<!-- Header -->
+
+<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<div class="w3-clear"></div>
+<header id="header" style="height: 630px;" class="w3-center w3-margin-bottom">
+  
+<div style="display:none;" id="myDiv" class="animate-bottom">
+  
+<!-- ---- hero logo img ---- -->
+  <img width="250px" src="img/ezgif.gif" alt="logo">
+  <h1><b><span>Sani Studio</span></b></h1>
+  <p><b>Photographer is a professional specialized in managing shootings and the processing of images, editing and ensuring high-quality photos.</b></p>
+  <!--<p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>-->
+    <a class="btn-solid-lg page-scroll w3-padding-16" href="#about">ABOUT US</a>
+    <a class="btn-solid-lg page-scroll w3-padding-16" href="#intro">CONTACT</a><br><br>
+</div>
+</header>
+</div>
+
+<!--------------------
+==== Back To Top ====
+-------------------->
+
+<button class="btn-solid-lg-4" onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
+
+<!-- Page Content - 1 -->
+  <div class="w3-content w3-main w3-padding-large" style="max-width:1500px; margin-left: 40%;">
+    
+  <!-- About Section -->
+  
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+  <div class="section-title">
+    <h3>About Us</h3>
+  </div>
+    <hr class="w3-opacity">
+    <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing
+      elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p><br><br>
+    
+    <!-- Start Our Photos-->
+  <!-- Portfolio Section -->
+  <div class="w3-padding-32 w3-content" id="photos">
+     <div class="section-title">
+    <h3>Photos</h3></div>
+    <hr class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="/img/hero-side-bg.jpg" style="width:100%">
+        <img src="/img/model-1.jpg" style="width:100%">
+        <img src="/img/model-3.jpg" style="width:100%">
+        <img src="/img/model-6.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="/img/model-7.jpg" style="width:100%">
+        <img src="/img/model-9.jpg" style="width:100%">
+        <img src="/img/model-10.jpg" style="width:100%">
+        <img src="/img/model-11.jpg" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+  <!-- button for more photos-->
+  <div class="w3-center">
+   <a class="btn-solid-lg page-scroll w3-padding-16" href="morephotos.html">More Photos</a></div><br><br><br>
+    <!-- End Our Photos-->
+    
+    <div class="section-title">
+    <h3 class="w3-padding-16">Our Skills</h3></div>
+    <p class="w3-wide">Photography</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:90%">90%</div>
+    </div>
+    <p class="w3-wide">Video Editing</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
+    </div>
+    <p class="w3-wide">Photoshop</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:75%">75%</div>
+    </div><br>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">14+</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">55+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">89+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">150+</span><br>
+        Meetings
+      </div>
+    </div>
+    <div class="w3-center">
+    <button class="btn-solid-lg-2 page-scroll w3-padding-16">
+      <i class="fa fa-download"></i> Download Resume
+    </button></div><br><br><br>
+
+    <!-- Testimonials -->
+    <div class="section-title">
+    <h3 class="w3-padding-24">Reputation</h3></div>
+    <img src="/img/boy-1.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <div id="name">
+    <p><b><span class="w3-large w3-text-black w3-margin-right">Chandler Bing.</span></b> <br>Web Designer.</p>
+    <p>Jane Doe is just awesome. I am so happy to have met her!</p><br>
+   
+    <img src="/img/boy-2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><b><span class="w3-large w3-text-black w3-margin-right">Chris Fox.</span></b> <br>CEO at Mighty Schools.</p>
+    <p>Jane Doe saved us from a web disaster.</p><br>
+    
+    <img src="/img/girl.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><b><span class="w3-large w3-text-black w3-margin-right">Rebecca Flex.</span></b><br>CEO at Company.</p>
+    <p>No one is better than Jane Doe.</p><br></div>
+    
+    <!-- Grid for pricing tables -->
+     <div class="section-title" id="price">
+    <h3 class="w3-padding-16">Our Price</h3></div>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">5GB Storage</li>
+          <li class="w3-padding-16">Mail Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 10</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="btn-solid-lg-3 w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-black w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">50GB Storage</li>
+          <li class="w3-padding-16">Endless Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 25</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="btn-solid-lg-3 w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Start contact -->
+  <div class="section-title" id="contact"><br>
+    <h3 class="w3-padding-24">Contact</h3></div>
+    <div class="w3">
+    
+    <div class="w3-car">
+      <div class="row align-items-stretch justify-content-center no-gutters">
+        <div class="col-md-7">
+          <div class="form h-100 contact-wrap p-5">
+            <h3 class="text-center">Let's Talk</h3>
+            <form class="mb-5" method="post" id="contactForm" name="contactForm">
+              <div class="row">
+                <div class="col-md-6 form-group mb-3">
+                  <label for="" class="col-form-label">Name *</label>
+                  <input type="text" class="form-control" name="name" id="name" placeholder="Your name">
+                </div>
+                <div class="col-md-6 form-group mb-3">
+                  <label for="" class="col-form-label">Email *</label>
+                  <input type="email" class="form-control" name="email" id="email"  placeholder="Your email">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12 form-group mb-3">
+                  <label for="budget" class="col-form-label">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Your subject">
+                </div>
+              </div>
+
+              <div class="row mb-5">
+                <div class="col-md-12 form-group mb-3">
+                  <label for="message" class="col-form-label">Message *</label>
+                  <textarea class="form-control" name="message" id="message" cols="25" rows="4"  placeholder="Write your message"></textarea>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-md-5 form-group text-center">
+                  <input type="submit" value="Send Message" class="btn-contact">
+                  <span class="submitting"></span>
+                </div>
+              </div>
+            </form>
+
+            <div id="form-message-warning mt-4"></div> 
+            <div id="form-message-success">
+              Your message was sent, thank you!
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+    
+  
+  <!-- End Contact -->
+  
+  </div>
+  <!-- End Page Content - 1 -->
+
+</div>
+<!-- End Page Content -->
+
+<!-- Footer -->
+<footer id="foot" class="w3-center w3-padding-64 w3-light-grey" style="margin-top:128px"> 
+  
+  <i href="#" class="fa fa-facebook-official fa-lg w3-hover-opacity"></i>
+  <i href="https://www.instagram.com/mr.aurgon/?r=nametag" class="fa fa-instagram fa-lg w3-hover-opacity"></i>
+  <i href="#" class="fa fa-snapchat fa-lg w3-hover-opacity"></i>
+  <i htef="#" class="fa fa-pinterest-p fa-lg w3-hover-opacity"></i>
+  <i htef="#" class="fa fa-twitter fa-lg w3-hover-opacity"></i>
+  <i hrrf="#" class="fa fa-linkedin fa-lg w3-hover-opacity"></i>
+  <i href="#" class="icon-whatsapp fa-lg w3-hover-opacity"></i>
+  <i href="https://github.com/aurgongaming" class="icon-github-square fa-lg w3-hover-opacity"></i>
+  <i href="#" class="fa fa-telegram fa-lg w3-hover-opacity"></i><br><br>
+  <div class="copyright">&copy; Copyright <strong><span>Sani Studio</span></strong>. All Rights Reserved
+        </div><br>
+ <!-- <p class="w3-medium">Made by <a href="https://web.aurgon.repl.co" target="_blank" class="footer-text"><b>Mr. Aurgon</b></a></p>--> Made by <a class="btn-footer" href="https://web.aurgon.repl.co"><b><span>Mr. Aurgon</span></b></a>
+</footer>
+ 
+ 
+<script src="js/loader.js"></script>
+<script src="js/sidebar.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/main.js"></script>
+<script src="main.js"></script>
+
+
+</body>
+</html>
