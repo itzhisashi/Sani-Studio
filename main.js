@@ -14,6 +14,19 @@ function scrollFunction() {
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
+  var body = $("html, body");
+   body.stop().animate({scrollTop:0},
+    3000, 'swing', function(){
+    console.log("Animation has finished");
+  });
+  
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+//function topFunction() {
+  //  var body = $("html, body");
+  //    body.stop().animate({scrollTop:0},       500, 'swing', function() { 
+  //        console.log("Animation has finished");
+  //    });
+  //  }
