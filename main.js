@@ -16,7 +16,7 @@ function scrollFunction() {
 function topFunction() {
   var body = $("html, body");
    body.stop().animate({scrollTop:0},
-    3000, 'swing', function(){
+    2000, 'swing', function(){
     console.log("Animation has finished");
   });
   
