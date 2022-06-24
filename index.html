@@ -5,11 +5,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- SEO Meta Tags -->
-<meta name="description" content="Sani Studio is a business focused HTML landing page template built by Mr.Aurgon to help you create lead generation websites for companies and their services.">
-<meta name="author" content="Mr. Aurgon">
+<meta name="description" content="Sani Studio is a business focused HTML landing page template built by Mr.Aurgon to help you create lead generation websites for businesses and their services."> <!-- website description -->
+<meta name="author" content="Mr. Aurgon"> <!-- website author name -->
 <meta property="og:site_name" content="Sani Studio" /> <!-- website name -->
-<meta name="theme-color" content="#666666">
-<meta property="og:site" content="https://sani-studio.aurgon.repl.co" /> <!-- website link -->
+<meta name="theme-color" content="#666666"> <!-- website theme color -->
+<meta property="og:site" content="" /> <!-- website link -->
 <meta property="og:title" content="Sani Studio - Aurgon"/> <!-- title shown in the actual shared post -->
 <meta property="og:description" content="GFX/VFX, Discord Server, Discord Bot, Application & Web Designer. Learning Javascript, HTML/CSS and other languages. Making websites from template, getting code and edit them to host it." /> <!-- description shown in the actual shared post -->
 <meta property="og:image" content="https://media.discordapp.net/attachments/840941644174065725/970680359945650226/IMG_20220502_190653.jpg" /> <!-- image link, make sure it's jpg -->
@@ -39,23 +39,16 @@ body,h1 h2 h3 h4 h5 h6 {font-family: "Montserrat", sans-serif}
 img {margin-bottom: -7px}
 .w3-row-padding img {margin-bottom: 12px}
 
-.bgimg {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100%;
-}
-
 .w3-container {
   margin-bottom: 1.125rem;
   border-radius: 0.125rem;
 }
 .w3-center {
   margin-bottom: 1.125rem;
-	border-radius: 0.125rem;
+  border-radius: 0.125rem;
 }
 .w3-padding-small {
-  border-radius: 1.125rem;
+  margin-bottom: 1.125rem;
   border-radius: 0.125rem;
 }
 
@@ -94,7 +87,7 @@ img {margin-bottom: -7px}
 </nav>
 
 
-<!-- !PAGE CONTENT! -->
+<!-- !PAGE CONTENT! - 1 -->
 
 <div class="w3-content" style="max-width:1500px;"> 
   
@@ -108,7 +101,8 @@ img {margin-bottom: -7px}
 <div style="display:none;" id="myDiv" class="animate-bottom">
   
 <!-- ---- hero logo img ---- -->
-  <img width="250px" src="img/ezgif.gif" alt="logo">
+  <img style="pointer-events: none" width="250px" src="img/ezgif.gif" alt="logo">
+  
   <h1><b><span>Sani Studio</span></b></h1><br>
   <p class="animate-bottom"><b>Photographer is a professional specialized in managing shootings and the processing of images, editing and ensuring high-quality photos.</b></p>
   <br>
@@ -126,7 +120,7 @@ img {margin-bottom: -7px}
 <button class="btn-solid-lg-4" onclick="topFunction()" id="myBtn" title="Go to top"></button>
 
 
-<!-- !PAGE CONTENT! -->
+<!-- !PAGE CONTENT! - 2 -->
   <div class="w3-content w3-main w3-padding-large" style="max-width:1500px; margin-left: 40%;">
     
   <!-- About Section -->
@@ -151,17 +145,57 @@ img {margin-bottom: -7px}
     <!-- Grid for photos -->
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-half">
+        <div class="container">
         <img src="/img/hero-side-bg.jpg" style="width:100%">
+       <div class="overlay">
+          <div class="text"><b>Feeling Lonely</b></div>
+          </div>
+          </div>
+        <div class="container">
         <img src="/img/model-1.jpg" style="width:100%">
+        <div class="overlay">
+          <div class="text"><b>Light House</b></div>
+          </div>
+          </div>
+        <div class="container">
         <img src="/img/model-3.jpg" style="width:100%">
+        <div class="overlay">
+          <div class="text"><b>Denim Jacket</b></div>
+          </div>
+          </div>
+        <div class="container">
         <img src="/img/model-6.jpg" style="width:100%">
+        <div class="overlay">
+          <div class="text"><b>Backpacking Through Station</b></div>
+          </div>
+          </div>
       </div>
 
       <div class="w3-half">
+        <div class="container">
         <img src="/img/model-7.jpg" style="width:100%">
+        <div class="overlay">
+          <div class="text"><b>Astronomical Clock Prague</b></div>
+          </div>
+          </div>
+         <div class="container">
         <img src="/img/model-9.jpg" style="width:100%">
+        <div class="overlay">
+          <div class="text"><b>Beautiful Deer Stag Bird Tree</b></div>
+          </div>
+          </div>
+          <div class="container">
         <img src="/img/model-10.jpg" style="width:100%">
+        <div class="overlay">
+          <div class="text"><b>Cat Persian Breed</b></div>
+          </div>
+          </div>
+          <div class="container">
         <img src="/img/model-11.jpg" style="width:100%">
+        <div class="overlay">
+          <div class="text"><b>Road Through The Mountains</b></div>
+          </div>
+          </div>
       </div>
     <!-- End photo grid -->
     </div>
@@ -210,7 +244,7 @@ img {margin-bottom: -7px}
       <i class="fa fa-download"></i> Download Resume
     </button></div><br><br><br>
 
-    <!-- Testimonials -->
+    <!-- Reputation -->
     <div class="section-title">
     <h3 class="w3-padding-24">Reputation</h3></div>
     <img src="/img/boy-1.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
@@ -276,9 +310,30 @@ img {margin-bottom: -7px}
     
     <div class="w3-car">
       <div class="row align-items-stretch justify-content-center no-gutters">
-        <div class="col-md-7">
+        <div class="col-md-12">
           <div class="form h-100 contact-wrap p-5">
-            <h3 class="text-center">Let's Talk</h3>
+            <h3 class="text-center">Let's Talk</h3><br>
+            
+      <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-lg w3-margin-right"></i> Mumbai, India</p>
+      <p><i class="fa fa-phone fa-lg w3-margin-right"></i> Phone: +00 151515</p>
+      <p><i class="fa fa-envelope fa-lg w3-margin-right"> </i> Email: maha@mail.com</p>
+         </div><br>
+     <!-- Map Secton -->
+  <div class="mapouter text-center">
+     <div class="gmap_canvas">
+        <iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Mumbai,%20India&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        <a href="https://123movies-to.org"></a><br>
+        <style>.mapouter{position:relative;text-align:right;height:400;width:100%;}</style>
+        
+  <style>
+    .gmap_canvas {overflow:hidden;background:none!important;height:400;width:100%;}
+  </style>
+  </div>
+  </div><br><br>
+<!-- End Map Section -->
+         <h4 class="text-center">Contact Us</h4><br>
+            
             <form class="mb-5" method="post" id="contactForm" name="contactForm">
               <div class="row">
                 <div class="col-md-6 form-group mb-3">
@@ -328,12 +383,12 @@ img {margin-bottom: -7px}
   <!-- End Contact -->
   
   </div>
-  <!-- End Page Content - 1 -->
+  <!-- End Page Content - 2 -->
 
 </div>
-<!-- End Page Content -->
+<!-- End Page Content - 1 -->
 
-<!-- Footer -->
+<!-- Footer Section -->
 <footer id="foot" class="w3-center w3-padding-64 w3-light-grey" style="margin-top:128px"> 
 
   <a style="color: #000" href=""><i class="fa fa-facebook-official fa-lg w3-hover-opacity"></i></a>
@@ -348,8 +403,10 @@ img {margin-bottom: -7px}
   </div>
   <div class="copyright">&copy; Copyright <strong><span>Sani Studio</span></strong>. All Rights Reserved
         </div><br>
- Made by <a class="btn-footer" target="_blank" href="https://card.aurgon.repl.co"><b><span>Mr. Aurgon</span></b></a>
+  Made by <a class="btn-footer" target="_blank" href="https://card.aurgon.repl.co"><b><span>Mr. Aurgon</span></b></a>
 </footer>
+
+<!-- End Footer -->
  
  
 <script src="js/loader.js"></script>
@@ -361,7 +418,6 @@ img {margin-bottom: -7px}
 <script src="js/script.js"></script>
 <script src="js/animate.js"></script>
 <script src="js/top.js"></script>
-
 
 </body>
 </html>
