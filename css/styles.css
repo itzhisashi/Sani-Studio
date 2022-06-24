@@ -1,7 +1,7 @@
-/* Template: Aria - Business HTML Landing Page Template
-   Author: Inovatik
-   Created: Jul 2019
-   Description: Master CSS file
+/* Template: Sani Studio - Business HTML Landing Page Template
+   Author: Mr. Aurgon
+   Created: April 2022
+   Description: Main CSS file
 */
 
 /*****************************************
@@ -16,19 +16,8 @@ Table Of Contents:
 07. Section - Title
 08. btn-footer
 09. Back To Top Button
+10. Image Hover Animation
 
-******************************************/
-
-/*****************************************
-Colors:
-
-- Backgrounds - light gray #fbfbfb
-- Background - dark blue #153e52
-- Backgrounds navbar, footer - dark gray #113448
-- Buttons, bullets, icons - green #14bf98
-- Headings text - black #484a46
-- Body text - gray #787976
-- Body text - light gray #dfe5ec
 ******************************************/
 
 
@@ -42,21 +31,14 @@ body {
     height: 100px;
 }
 
-img {
-    pointer-events: none;
-}
-
 .responsive {
   width: 100%;
   height: auto;
 }
 
-
- 
- 
- /***********************
- /*     02. Loader.    /*
- ************************/
+/***********************
+/*     02. Loader.    /*
+************************/
  
    .example {
       position: fixed;
@@ -187,7 +169,7 @@ img {
   -webkit-animation-name: animatebottom;
   -webkit-animation-duration: 1s;
   animation-name: animatebottom;
-  animation-duration: 1s
+  animation-duration: 1s;
 }
 
 @-webkit-keyframes animatebottom {
@@ -196,7 +178,7 @@ img {
 }/*change bottom to left, top, right*/
 
 @keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0;  } 
+  from{ bottom:-100px; opacity:0 } 
   to{ bottom:0px; opacity:1 }
 }/*change bottom to left, top, right*/
 
@@ -380,4 +362,48 @@ img {
   opacity: 100%;
   border: 0.125rem solid #7E7E7E;
   
+}
+
+/******************************/
+/* 10. Image Hover Animation. */
+/******************************/
+
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  /*height: auto;*/
+}
+
+.overlay {
+  position: static;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+ /* height: auto;*/
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+
+.text {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }

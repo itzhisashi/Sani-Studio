@@ -1,14 +1,8 @@
-/*body {
-  font-family: "Roboto", sans-serif;
-  background-color: #efefef;
-  line-height: 1.9;
-  color: #8c8c8c;
-  position: relative; }
-
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Roboto", sans-serif;
-  color: #000; }*/
+/* Template: Sani Studio - Business HTML Landing Page Template
+   Author: Mr. Aurgon
+   Created: April 2022
+   Description: Contact CSS file
+*/
 
 /**************************/
 /*      01. General.     */
@@ -158,20 +152,16 @@ label.error {
   font-size: 12px;
   color: #000; }
 
-/**************************/
-/*      02. Contact.      */
-/**************************/
 
 
+/**************************/
+/*   02. Contact Button.  */
+/**************************/
 .w3 {
-  width: 100%;
-  height: none;
+   width: 100%;
+   height: none;
 }
 
-
-/********************
-.   Second Button.
-*********************/
 .btn-contact {
 
 	display: inline-block;
