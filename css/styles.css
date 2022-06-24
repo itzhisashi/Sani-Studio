@@ -52,8 +52,8 @@ body {
    
    .sk-chase {
 	    position: absolute;
-	    top: 50%; /* centers the loading animation vertically one the screen */
-	    left: 50%; /* centers the loading animation horizontally one the screen */
+	    top: 50%; /* centers the loading animation vertically on the screen */
+	    left: 52%; /* centers the loading animation horizontally on the screen */
 	    width: 3.75rem;
 	    height: 1.25rem;
  	    margin: -0.625rem 0 0 -1.875rem; /* is width and height divided by two */ 
