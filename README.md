@@ -47,7 +47,7 @@ This collection of codes and themes maintain native bootstrap functionality, whi
 
 4) Change about section text.
 
-5) Change grid for photos [ <img src="img/<your image name>.<jpg/.png/.jpeg>" style="width: 100%"> with it's text.
+5) Change grid for photos ``<img src="img/<your image name>.<jpg/.png/.jpeg>" style="width: 100%">`` with it's text.
 
 6) Change skills name and its percentage, if download button is not working cut it using comment element.
 
