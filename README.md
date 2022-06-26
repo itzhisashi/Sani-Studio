@@ -35,7 +35,7 @@ This collection of codes and themes maintain native bootstrap functionality, whi
 
 5] Images - you can change all images as you want.
 
-6] If you don't want contact section so just go to the index.html and put this " <!-- " code before ( <h4 class="text-center">Contact Us</h4><br> ) and this " --> " code afther ( <div id="form-message-success"> Your message was sent, thank you! </div> ).
+6] If you don't want contact section so just go to the index.html and put this ``" <!-- "`` code before ``( <h4 class="text-center">Contact Us</h4><br> )`` and this ``" --> "`` code afther ``( <div id="form-message-success"> Your message was sent, thank you! </div> )``.
 
 • Topic which you can edit : 
 
