@@ -1,8 +1,15 @@
-/* Template: Sani Studio - Business HTML Landing Page Template
-   Author: Mr. Aurgon
-   Created: April 2022
-   Description: Main CSS file
-*/
+/*-------------------------------------------------------
+Theme Name: Sani Studio - Photography Business HTML Loading Page Template
+Theme URL: https://sani-studio.netlify.app/
+Tag : photography, loadingpage, design,  editable, business, multipurpose, unique, email, location, photos, price, skills, clean, company, marketing, professional, responsive.
+Description: This is a main css file, you can edit all codes which you need to change.
+Author: Aurgon
+Author URL: https://aurgon.netlify.app/
+Template: Loading Page Template
+Created: June 2022
+Version: 1.0.0
+
+-----------------        CSS HERE        ------------------*/
 
 /*****************************************
 Table Of Contents:
@@ -63,8 +70,8 @@ body {
  
 /* Config */
 :root {
-  --sk-size: 45px;
-  --sk-color: #2E2F31;/* Change color of loading circle*/
+  --sk-size: 45px; /* Change size of loading circle */
+  --sk-color: #2E2F31; /* Change color of loading circle */
 }
 
 
@@ -381,7 +388,7 @@ body {
 }
 
 .overlay {
-  position: static;
+  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
@@ -392,18 +399,22 @@ body {
   transition: .5s ease;
 }
 
+
 .container:hover .overlay {
   opacity: 1;
 }
 
 
 .text {
+  background-color: rgba(46, 47, 49, .5);
   text-align: center;
   color: white;
   font-size: 25px;
   position: absolute;
   top: 50%;
   left: 50%;
+  height: auto;
+  width: auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
