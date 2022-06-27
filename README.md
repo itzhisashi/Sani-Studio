@@ -1,5 +1,6 @@
-# Sani-Studio
-Thanks for downloading this template!
+# Sani Studio 
+
+#####Thanks for downloading this template!
 
 • Theme Name: Sani Studio - Photography Business HTML Loading Page Template
 
