@@ -1,30 +1,30 @@
 # Sani Studio 
 
-### Thanks for downloading this template!
+#### Thanks for downloading this template!
 
-• Theme Name: Sani Studio - Photography Business HTML Loading Page Template
+## • Theme Name: Sani Studio - Photography Business HTML Loading Page Template
 
-• Theme URL: https://sani-studio.netlify.app/
+## • Theme URL: https://sani-studio.netlify.app/
 
-• Tag: photography, loadingpage, design,  editable, business, multipurpose, unique, email, location, photos, price, skills, clean, company, marketing, professional, responsive.
+## • Tag: photography, loadingpage, design,  editable, business, multipurpose, unique, email, location, photos, price, skills, clean, company, marketing, professional, responsive.
 
-• Description: Sani Studio - Photography Business Loading Page Template is a personal loading page made with bootstrap.
+## • Description: Sani Studio - Photography Business Loading Page Template is a personal loading page made with bootstrap.
 
 It has clean and smooth design also can be editable for creative studio and portfolio, all files codes are easily customizable.
 
 This collection of codes and themes maintain native bootstrap functionality, while also providing extra functionality to give each codes and themes it's own creativity and professional style.
 
-• Author: Aurgon
+## • Author: Aurgon
 
-• Author URL: https://aurgon.netlify.app/
+## • Author URL: https://aurgon.netlify.app/
 
-• Template: Loading Page Template
+## • Template: Loading Page Template
 
-• Created: June 2022
+## • Created: June 2022
 
-• Version: 1.0.0
+## • Version: 1.0.0
 
-• Editable Files: 
+## • Editable Files: 
 
 1] Html files - index.html , morephotos.html
 
@@ -38,7 +38,7 @@ This collection of codes and themes maintain native bootstrap functionality, whi
 
 6] If you don't want contact section so just go to the index.html and put this ``" <!-- "`` code before ``( <h4 class="text-center">Contact Us</h4><br> )`` and this ``" --> "`` code afther ``( <div id="form-message-success"> Your message was sent, thank you! </div> )``.
 
-• Topic which you can edit : 
+## • Topic which you can edit : 
 
 1) In the index.html and morephotos.html change all seo meta tags .
 
@@ -62,9 +62,9 @@ This collection of codes and themes maintain native bootstrap functionality, whi
 
 11) Change all footer social media links .
 
-* Edit all content given in index.html and morephotos.html.
+## * Edit all content given in index.html and morephotos.html.
 
-* Please give rate to our website.
+## * Please give rate to our website.
 
-* Thanks for reading! 
+## * Thanks for reading! 
 
