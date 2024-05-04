@@ -38,7 +38,7 @@ This collection of codes and themes maintain native bootstrap functionality, whi
 
 6] If you don't want contact section so just go to the index.html and put this ``" <!-- "`` code before ``( <h4 class="text-center">Contact Us</h4><br> )`` and this ``" --> "`` code afther ``( <div id="form-message-success"> Your message was sent, thank you! </div> )``.
 
-## • Topic which you can edit : 
+### • Topic which you can edit : 
 
 1) In the index.html and morephotos.html change all seo meta tags .
 
@@ -62,9 +62,9 @@ This collection of codes and themes maintain native bootstrap functionality, whi
 
 11) Change all footer social media links .
 
-## * Edit all content given in index.html and morephotos.html.
+### * Edit all content given in index.html and morephotos.html.
 
-## * Please give rate to our website.
+### * Please give rate to our website.
 
-## * Thanks for reading! 
+### * Thanks for reading! 
 
