@@ -1,5 +1,4 @@
-# Sani Studio 
-## <img align="right" width="200"  src="img/icon.png">
+##Sani Studio <img align="right" width="200"  src="img/icon.png">
 
 #### Thanks for downloading this template!
 
@@ -23,7 +22,7 @@ This collection of codes and themes maintain native bootstrap functionality, whi
 
 #### • Created: June 2022
 
-#### • Version: 1.0.0
+#### • Version: 1.6.2
 
 #### • Editable Files: 
 
