@@ -1,4 +1,4 @@
-# Sani Studio <img align="right" height="200px" border-radius="1.5px" src="img/icon.png">
+# Sani Studio <img align="right" height="200px" border-radius="200px" src="img/icon.png">
 
 #### Thanks for downloading this template!
 
