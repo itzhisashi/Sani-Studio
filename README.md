@@ -1,5 +1,5 @@
 # Sani Studio 
-# <img align="right" height="200px" border="1.5px" margin="0px" src="img/icon.png">
+# <img align="right" height="200px" border="1.5px" padding="0px" src="img/icon.png">
 
 #### Thanks for downloading this template!
 
