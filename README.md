@@ -62,9 +62,9 @@ This collection of codes and themes maintain native bootstrap functionality, whi
 
 11) Change all footer social media links .
 
-### * Edit all content given in index.html and morephotos.html.
+### # Edit all content given in index.html and morephotos.html.
 
-### * Please give rate to our website.
+### # Please give rate to our website.
 
-### * Thanks for reading! 
+### # Thanks for reading! 
 
