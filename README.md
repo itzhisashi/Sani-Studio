@@ -1,4 +1,4 @@
-# Sani Studio <img align="left" src="img/icon.png">
+# Sani Studio <img align="left" height="200px" src="img/icon.png">
 
 #### Thanks for downloading this template!
 
