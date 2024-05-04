@@ -26,11 +26,11 @@ This collection of codes and themes maintain native bootstrap functionality, whi
 
 #### • Editable Files: 
 
-1] Html files - ```index.html , morephotos.html```
+1] Html files - ``index.html , morephotos.html``
 
-2] Css files - contact.css , styles.css
+2] Css files - ``contact.css , styles.css``
 
-3] Js files - animate.js , loader.js
+3] Js files - ``animate.js , loader.js``
 
 4] Php files - send-email.php , you just watch a totorial how to set up php file codes because you need to change some codes of php file to get email message.
 
